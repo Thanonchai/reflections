@@ -16,3 +16,6 @@ What is the benefit of having a copy of the last known state of the remote store
 
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
  - The collaboration will be hard.  The repository might be messy from unintentional pushes.  Or, I will have to go and talk to a code reviewer before pushing.  That’d slow me down greatly.  With Github, it will be easier.
+
+When would you want to make changes in the a separate branch rather than directly in master?  What benefits does each approach have?
+ - I want to use a new branch when I’m working on a new POC or feature for the same project.  I push my work directly into the master branch; surely things can be quicker, but it’s going to be hard to clean up what you don’t need when you have already put commits into the branch.
